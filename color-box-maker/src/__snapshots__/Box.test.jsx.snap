@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="box"
+  >
+    <div
+      data-testid="box"
+    />
+    <button
+      aria-label="Remove box"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;

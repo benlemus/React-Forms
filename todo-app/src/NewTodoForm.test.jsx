@@ -1,15 +1,15 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App.jsx";
+import NewTodoForm from "./NewTodoForm.jsx";
 import { expect, it } from "vitest";
 
 it("should render", () => {
-  render(<App />);
+  render(<NewTodoForm />);
 
-  expect(screen.getByText(/Todos:/i)).toBeInTheDocument();
+  expect(screen.getByText(/Add Todo/i)).toBeInTheDocument();
 });
 
 it("should match the snapshot", () => {
-  const { asFragment } = render(<App />);
+  const { asFragment } = render(<NewTodoForm />);
 
   expect(asFragment()).toMatchSnapshot();
 });

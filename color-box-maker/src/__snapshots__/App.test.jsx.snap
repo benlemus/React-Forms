@@ -1,0 +1,63 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should match the snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    Create Custom Boxes:
+  </h1>
+  <div
+    class="boxes-container"
+  >
+    <div
+      class="boxes"
+    />
+  </div>
+  <div
+    class="form-container"
+  >
+    <form>
+      <label
+        for="width"
+      >
+        Width
+      </label>
+      <input
+        id="width"
+        name="width"
+        placeholder="100px"
+        type="text"
+        value=""
+      />
+      <label
+        for="height"
+      >
+        Height
+      </label>
+      <input
+        id="height"
+        name="height"
+        placeholder="100px"
+        type="text"
+        value=""
+      />
+      <label
+        for="backgroundColor"
+      >
+        Background Color
+      </label>
+      <input
+        id="backgroundColor"
+        name="backgroundColor"
+        placeholder="green"
+        type="text"
+        value=""
+      />
+      <button
+        class="formBtn"
+      >
+        Add Box
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

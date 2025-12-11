@@ -1,15 +1,15 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App.jsx";
+import Box from "./Box.jsx";
 import { expect, it } from "vitest";
 
 it("should render", () => {
-  render(<App />);
+  render(<Box />);
 
-  expect(screen.getByText(/Todos:/i)).toBeInTheDocument();
+  expect(screen.getByText(/X/i)).toBeInTheDocument();
 });
 
 it("should match the snapshot", () => {
-  const { asFragment } = render(<App />);
+  const { asFragment } = render(<Box />);
 
   expect(asFragment()).toMatchSnapshot();
 });

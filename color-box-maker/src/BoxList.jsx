@@ -23,6 +23,7 @@ export default function BoxList() {
 
   return (
     <>
+      <h1>Create Custom Boxes:</h1>
       <div className="boxes-container">
         <div className="boxes">
           {boxes.map((b) => (

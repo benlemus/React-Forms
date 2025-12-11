@@ -5,7 +5,7 @@ import { expect, it } from "vitest";
 it("should render", () => {
   render(<App />);
 
-  expect(screen.getByText(/Todos:/i)).toBeInTheDocument();
+  expect(screen.getByText(/Create Custom Boxes:/i)).toBeInTheDocument();
 });
 
 it("should match the snapshot", () => {
